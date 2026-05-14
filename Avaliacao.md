@@ -1,18 +1,18 @@
 # Avaliação da Solução Final
 
-## 📌 Introdução
+## Introdução
 
 Após a implementação das correções e melhorias, este documento apresenta uma análise crítica sobre a qualidade final da solução. A avaliação considera três dimensões principais: **clareza do código**, **eficiência do sistema** e **escalabilidade do projeto**.
 
 ---
 
-## 1️⃣ Clareza
+## Clareza
 
 ### O que foi melhorado?
 
 O código ficou significativamente mais fácil de entender e modificar após as correções.
 
-### ✅ Pontos Positivos
+###  Pontos Positivos
 
 #### 1. Melhor Separação de Funções
 
@@ -96,7 +96,7 @@ for usuario in dados:
 
 **Benefício:** Ler o código em português/inglês é mais natural que entender índices.
 
-### 📊 Impacto na Clareza
+###  Impacto na Clareza
 
 | Aspecto | Antes | Depois | Melhoria |
 |---|---|---|---|
@@ -107,13 +107,13 @@ for usuario in dados:
 
 ---
 
-## 2️⃣ Eficiência
+##  Eficiência
 
 ### O que foi melhorado?
 
 O sistema ficou muito mais estável e seguro após implementar tratamento de erros e validação.
 
-### ✅ Resultados Percebidos
+###  Resultados Percebidos
 
 #### 1. Menos Erros Durante Execução
 
@@ -132,7 +132,7 @@ ValueError: invalid literal for int() with base 10: 'abc'
 >>> Digite um número: abc
 >>> Erro: digite um número válido.
 >>> Digite um número: 5
->>> Resultado: 2.0 ✅
+>>> Resultado: 2.0 
 ```
 
 **Benefício:** O programa continua funcionando mesmo com entrada inválida.
@@ -141,10 +141,10 @@ ValueError: invalid literal for int() with base 10: 'abc'
 
 **Problemas evitados:**
 
-- ✅ Divisão por zero → Mensagem clara e programa continua
-- ✅ Arquivo não encontrado → Tratamento gracioso do erro
-- ✅ Índice inválido → Verificação preventiva
-- ✅ Conversão de tipo inválida → Captura de ValueError
+-  Divisão por zero → Mensagem clara e programa continua
+-  Arquivo não encontrado → Tratamento gracioso do erro
+-  Índice inválido → Verificação preventiva
+-  Conversão de tipo inválida → Captura de ValueError
 
 #### 3. Melhor Validação das Entradas
 
@@ -164,20 +164,20 @@ print(f"Idade aceita: {idade}")
 ```
 
 **Validações implementadas:**
-- ✅ Tipo de dado correto
-- ✅ Intervalo válido
-- ✅ Valores realistas
+-  Tipo de dado correto
+-  Intervalo válido
+-  Valores realistas
 
 #### 4. Funcionamento Mais Seguro
 
 **Problemas de segurança evitados:**
 
-- ✅ Injeção de dados inválidos
-- ✅ Acesso a índices inválidos
-- ✅ Operações impossíveis (divisão por zero)
-- ✅ Perda de dados por encerramento abrupto
+-  Injeção de dados inválidos
+-  Acesso a índices inválidos
+-  Operações impossíveis (divisão por zero)
+-  Perda de dados por encerramento abrupto
 
-### 📊 Comparação de Eficiência
+###  Comparação de Eficiência
 
 | Métrica | Antes | Depois | Melhoria |
 |---|---|---|---|
@@ -188,13 +188,13 @@ print(f"Idade aceita: {idade}")
 
 ---
 
-## 3️⃣ Escalabilidade
+## 3️ Escalabilidade
 
 ### O que foi melhorado?
 
 A organização e estrutura do código facilitaram futuras expansões e manutenção do sistema.
 
-### ✅ Aspectos Positivos
+###  Aspectos Positivos
 
 #### 1. Facilidade para Adicionar Novas Funções
 
@@ -278,12 +278,12 @@ pontuacao = converter_para_inteiro(input("Pontuação: "))
 
 **Quando precisar fazer mudanças:**
 
-✅ Encontra a função responsável rapidamente  
-✅ Faz a mudança em um único lugar  
-✅ Todas as partes que usam aquela função se beneficiam  
-✅ Menos chance de introduzir novos bugs  
+ Encontra a função responsável rapidamente  
+ Faz a mudança em um único lugar  
+ Todas as partes que usam aquela função se beneficiam  
+ Menos chance de introduzir novos bugs  
 
-### 📊 Potencial de Crescimento
+###  Potencial de Crescimento
 
 | Aspecto | Antes | Depois | Escalabilidade |
 |---|---|---|---|
@@ -294,7 +294,7 @@ pontuacao = converter_para_inteiro(input("Pontuação: "))
 
 ---
 
-## 📈 Análise Geral de Qualidade
+##  Análise Geral de Qualidade
 
 ### Matriz de Avaliação
 
@@ -316,54 +316,54 @@ pontuacao = converter_para_inteiro(input("Pontuação: "))
 
 ## 💡 Conclusões Principais
 
-### 1️⃣ Importância do Tratamento de Erros
+### 1️ Importância do Tratamento de Erros
 
-✅ **Conclusão:** O tratamento de erros não é opcional — é essencial.  
+ **Conclusão:** O tratamento de erros não é opcional — é essencial.  
 Um software sem tratamento de erros é um risco de segurança e oferece péssima experiência ao usuário.
 
-### 2️⃣ Qualidade Vs. Quantidade de Código
+### 2️ Qualidade Vs. Quantidade de Código
 
-✅ **Conclusão:** Código bem organizado é melhor que código rápido.  
+ **Conclusão:** Código bem organizado é melhor que código rápido.  
 Poucos erros e fácil manutenção trazem muito mais valor a longo prazo.
 
-### 3️⃣ Validação de Dados é Crítica
+### 3️ Validação de Dados é Crítica
 
-✅ **Conclusão:** Nunca confie em dados fornecidos pelo usuário.  
+ **Conclusão:** Nunca confie em dados fornecidos pelo usuário.  
 Sempre valide entrada, tipos, intervalos e formatos.
 
-### 4️⃣ Modularidade Facilita Crescimento
+### 4️ Modularidade Facilita Crescimento
 
-✅ **Conclusão:** Funções pequenas e bem definidas escalam melhor.  
+ **Conclusão:** Funções pequenas e bem definidas escalam melhor.  
 Um projeto modular é mais fácil de testar, manter e expandir.
 
 ---
 
-## 🚀 Recomendações para Futuro
+##  Recomendações para Futuro
 
 ### Curto Prazo (Próximas Semanas)
 
-- 🔧 Adicionar testes unitários para cada função
-- 🔧 Implementar logging para rastrear erros
-- 🔧 Criar documentação de API das funções
-- 🔧 Padronizar nomes e convenções de código
+-  Adicionar testes unitários para cada função
+-  Implementar logging para rastrear erros
+-  Criar documentação de API das funções
+-  Padronizar nomes e convenções de código
 
 ### Médio Prazo (Próximos Meses)
 
-- 🔧 Refatorar código duplicado
-- 🔧 Implementar sistema de configuração centralizado
-- 🔧 Adicionar testes de integração
-- 🔧 Melhorar performance com profiling
+-  Refatorar código duplicado
+-  Implementar sistema de configuração centralizado
+-  Adicionar testes de integração
+-  Melhorar performance com profiling
 
 ### Longo Prazo (Próximos Anos)
 
-- 🔧 Arquitetura em microsserviços
-- 🔧 Sistema de cache
-- 🔧 Banco de dados para persistência
-- 🔧 API REST para integração
+-  Arquitetura em microsserviços
+-  Sistema de cache
+-  Banco de dados para persistência
+-  API REST para integração
 
 ---
 
-## 📚 Lições Aprendidas
+##  Lições Aprendidas
 
 | Lição | O que aprendemos |
 |---|---|
@@ -376,9 +376,9 @@ Um projeto modular é mais fácil de testar, manter e expandir.
 
 ---
 
-## 🏆 Resultado Final
+##  Resultado Final
 
-### ✅ Objetivos Alcançados
+###  Objetivos Alcançados
 
 - ✓ Identificação completa de erros de sintaxe, lógica e execução
 - ✓ Implementação de correções com justificativas claras
@@ -386,7 +386,7 @@ Um projeto modular é mais fácil de testar, manter e expandir.
 - ✓ Documentação detalhada de todo o processo
 - ✓ Criação de base sólida para futuro crescimento
 
-### 🎓 Conhecimentos Desenvolvidos
+###  Conhecimentos Desenvolvidos
 
 - ✓ Como identificar e corrigir diferentes tipos de erros
 - ✓ Importância do tratamento de exceções
@@ -396,7 +396,7 @@ Um projeto modular é mais fácil de testar, manter e expandir.
 
 ---
 
-## 📞 Próximos Passos
+##  Próximos Passos
 
 Para continuar melhorando:
 
@@ -409,4 +409,4 @@ Para continuar melhorando:
 ---
 
 **Data:** Maio de 2026  
-**Conclusão:** A jornada pelo desenvolvimento de software não termina com código que funciona — termina quando você cria código que é confiável, mantível e escalável. 🚀
+**Conclusão:** A jornada pelo desenvolvimento de software não termina com código que funciona — termina quando você cria código que é confiável, mantível e escalável. 
