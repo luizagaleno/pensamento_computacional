@@ -1,41 +1,63 @@
-# Pensamento Computacional
+# Atividade – Tratamento de Erros e Avaliação de Soluções
 
-## 📖 Descrição
+## 📋 Objetivo
 
-Este repositório é dedicado ao estudo e exploração de conceitos fundamentais de **pensamento computacional**. Aqui você encontrará recursos, exemplos práticos e projetos que ajudam a desenvolver habilidades de resolução de problemas através de uma perspectiva computacional.
+Esta atividade tem como objetivo:
 
-## 🎯 Objetivo
+1. **Identificar** os principais tipos de erros encontrados durante o desenvolvimento de um projeto
+2. **Corrigir** as falhas encontradas no código
+3. **Avaliar** a qualidade da solução final em termos de clareza, eficiência e escalabilidade
+4. **Compreender** a importância do tratamento de erros no desenvolvimento de software
 
-O pensamento computacional é uma abordagem para resolver problemas e entender sistemas complexos através de princípios e práticas da ciência da computação. Este repositório busca:
+## 🎓 Competências Desenvolvidas
 
-- 📚 Documentar conceitos-chave do pensamento computacional
-- 💻 Fornecer exemplos práticos e implementações
-- 🔍 Explorar algoritmos e estruturas de dados
-- 🧠 Desenvolver a capacidade de decomposição e abstração de problemas
+- Identificação de erros de sintaxe, lógica e execução
+- Aplicação de tratamento de exceções (try/except)
+- Validação de dados de entrada
+- Refatoração de código
+- Análise crítica de soluções
+- Documentação de processos
 
-## 🚀 Começando
+## 📁 Estrutura do Projeto
 
-1. Explore os diretórios para encontrar tópicos de interesse
-2. Revise os exemplos de código e documentação
-3. Pratique com os exercícios propostos
-4. Compartilhe suas soluções e ideias
+Este repositório está organizado da seguinte forma:
 
-## 📁 Estrutura do Repositório
+```
+├── README.md                    # Esta documentação
+├── Erros_Identificados.md       # Registro dos erros encontrados
+├── Projeto_Corrigido.md         # Versão corrigida com justificativas
+└── Avaliacao.md                 # Reflexão sobre a solução final
+```
 
-*(Adicionar conforme o conteúdo for criado)*
+## 🔍 Resumo da Atividade
 
-## 🤝 Contribuições
+Durante o desenvolvimento do projeto, foram identificados três categorias principais de erros:
 
-Contribuições são bem-vindas! Sinta-se livre para:
-- Adicionar novos exemplos
-- Melhorar a documentação
-- Corrigir erros
-- Compartilhar insights
+### 1. **Erros de Sintaxe**
+Problemas na escrita do código que impedem a execução.
 
-## 📝 Licença
+### 2. **Erros de Lógica**
+Código que executa, mas produz resultados incorretos.
 
-Este projeto está sob licença MIT.
+### 3. **Erros de Execução**
+Problemas que ocorrem durante a execução com dados de entrada inválidos.
+
+## ✅ Melhorias Implementadas
+
+- Uso de tratamento de exceções
+- Validação dos dados inseridos
+- Melhor organização do código
+- Separação das funções do sistema
+- Mensagens de erro mais claras
+- Testes em diferentes situações
+
+## 📖 Como Navegar
+
+1. Comece pelo arquivo **Erros_Identificados.md** para conhecer os problemas
+2. Consulte **Projeto_Corrigido.md** para ver as soluções
+3. Leia **Avaliacao.md** para a análise crítica final
 
 ---
 
-**Mantido por:** [luizagaleno](https://github.com/luizagaleno)
+**Data da Atividade:** Maio de 2026  
+**Aluno:** Luiza Galeno
